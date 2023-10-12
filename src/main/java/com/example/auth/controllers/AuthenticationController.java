@@ -5,7 +5,6 @@ import com.example.auth.domain.user.LoginResponseDTO;
 import com.example.auth.domain.user.RegisterDTO;
 import com.example.auth.domain.user.User;
 import com.example.auth.infra.security.TokenService;
-import com.example.auth.repositories.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
